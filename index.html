@@ -78,7 +78,9 @@
   <p>Ghat Raftaar is free and is supported by ads delivered through <strong>Google AdMob</strong> (the Google Mobile Ads SDK, by Google LLC). No other ad network or mediation SDK is used.</p>
   <h3>How ads appear</h3>
   <ul>
-    <li>A full-screen ad may appear between stages. The game never waits for an ad to load: if none is ready, play simply continues.</li>
+    <li>A full-screen ad appears each time the game starts, including the first launch. It does not appear when you return to the game from the background. If it cannot load within a few seconds, the game simply continues.</li>
+    <li>A full-screen ad appears after a run or race ends, never while you are driving. The game does not wait for this ad to load: if none is ready, play simply continues. It is skipped if you finished watching a rewarded ad less than 30 seconds earlier.</li>
+    <li>A banner ad is shown on screen at the top of the game, including while you drive. It is hidden only while a full-screen ad is showing.</li>
     <li>Optional rewarded ads: you can choose to watch ads instead of paying for things (for example "watch 2 ads" for a reward). Nothing is granted for an ad you do not finish; ads you finish count toward the reward. There is nothing to buy with real money.</li>
   </ul>
   <h3>How ads are configured</h3>
